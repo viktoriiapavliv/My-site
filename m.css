@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    height: 50px;
+    background-color: rgba(0,0,0,0.3);
+    padding-top: 1px;
+    text-align: right;
+    padding-right: 60px;
+}
+ul li{
+    display: inline;
+    font-size: 15px;
+}
+a {
+    color: white;
+}
+.second {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header {
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 650px;
+    color: white;
+    text-align: center;
+}
+.main {
+    margin-top: 35px;
+}
+.main_photo {
+    border: 5px solid white;
+    border-radius: 200px;
+}
+.greeting {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+input {
+    padding: 8px;
+    font-size: 15px;
+    border: 0;
+}
+input[type="button"]:hover {
+    background: rgba(12,7,16,0.3);
+    color: white;
+    border: 0.5px solid white;
+}
+.about_me {
+    height: 520px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inline {
+    display: flex;
+    margin-top: 50px;
+}
+.about_text{
+    text-align: center;
+    margin-right: 110px;
+    margin-top: 70px;
+    color: #727272;
+}
+.about_photo {
+    width: 400px;
+    height: 400px;
+
+}
+
+.quote{
+    height: 650px;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+.quote h1{
+    font-style: italic;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 250px;
+    padding-left: 80px;
+    padding-right: 60px;
+}
+.quote h3{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 80px;
+}
+.footer{
+    height: 40px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+}
