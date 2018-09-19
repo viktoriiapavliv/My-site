@@ -3,48 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacts</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <style>
+        button {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .header{
+            height: 20px;
+            background-color: white;
+        }
+
+        a {
+            color: white;
+        }
 
         .row {
             margin-top: 50px;
         }
-        h1 {
-            margin-top: 30px;
+
+
+      .section{
+          text-align: center;
+          margin-top: 50px;
+          background-color: #7A274D;
+          height: 500px;
+          color: white;
+      }
+
+      .row{
+          padding-top: 100px;
+      }
+        .footer {
+            height: 20px;
+            text-align: center;
+            margin-top: 12px;
+            font-size: 12px;
+
         }
+
+        .fab, .fas {
+            color: black;
+            font-size: 50px;
+            text-align: center;
+        }
+
+
     </style>
 </head>
 <body>
 
 
-
-
-<div class="container">
+<div class="header">
     <header>
-        <a href="Viktoriia Pavliv.html">Back to main page</a>
+        <form>
+            <button><a href="Viktoriia Pavliv.html">Back</a></button>
+        </form>
+
     </header>
-    <h1>You can contact me:</h1>
-<div class="row">
-    <div class="col-md-3">
-        <img src="icons8-skype-48.png" alt="Icon skype">
-        <p>pavlivviktoria8</p>
-    </div>
-
-    <div class="col-md-3">
-        <img src="icons8-instagram-old-48.png" alt="Icon instagram">
-        <p><a href="https://www.instagram.com/viktoriiapavliv/" target="_blank">viktoriiapavliv</a></p>
-    </div>
-
-    <div class="col-md-3">
-        <img src="icons8-facebook-48.png" alt="Icon facebook">
-        <p><a href="https://www.facebook.com/viktoriia.pavliv.3" target="_blank">Viktoriia Pavliv</a></p>
-    </div>
-
-    <div class="col-md-3">
-        <img src="icons8-phonelink-ring-filled-50.png" alt="Icon phone">
-        <p>+(380)990903086</p>
-    </div>
 </div>
+
+<div class="section">
+
+        <h1>You can contact me:</h1>
+
+        <div class="row">
+            <div class="col-md-3">
+                <i class="fab fa-skype"></i>
+                <p>pavlivviktoria8</p>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fab fa-instagram"></i>
+                <p><a href="https://www.instagram.com/viktoriiapavliv/" target="_blank">viktoriiapavliv</a></p>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fab fa-facebook-square"></i>
+                <p><a href="https://www.facebook.com/viktoriia.pavliv.3" target="_blank">Viktoriia Pavliv</a></p>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fas fa-mobile-alt"></i>
+                <p>+(380)990903086</p>
+            </div>
+        </div>
 </div>
+
+<div class="footer">© 2018 All rights reserved</div>
 </body>
 </html>
