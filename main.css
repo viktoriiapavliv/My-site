@@ -3,36 +3,64 @@ body {
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
-.top-menu-container {
-    height: 30px;
-    background-color: rgba(0,0,0,0.3);
-    text-align: right;
-    padding-right: 60px;
-    padding-top: 12px;
+
+.head {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 40px;
 }
 
-.menu-item{
+.top-menu-container {
+    padding: 10px;
+    margin-right: 60px;
+    float: right;
+    /*text-align: right;*/
+
+}
+
+.menu-item {
     display: inline-block;
     width: 80px;
     text-align: left;
+
 }
-.sub-menu-container{
+
+.sub-menu-container {
     position: absolute;
     text-align: left;
     display: none;
+    width: 100px;
+    padding-top: 8px;
 }
-.menu-item:hover .sub-menu-container{
+
+.sub-menu-item {
+    color: white;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+}
+
+.sub-menu-item:hover {
+    color: lavender;
+}
+
+.menu-item:hover .sub-menu-container {
     display: block;
 }
 
 a {
     color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lavender;
 }
 
 .second {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 .header {
     background: url("background.jpg");
     background-size: cover;
@@ -43,51 +71,57 @@ a {
     color: white;
     text-align: center;
 }
+
 .main {
     margin-top: 35px;
 }
+
 .main_photo {
     border: 5px solid white;
     border-radius: 200px;
 }
+
 .greeting {
-    font-family: "Open Sans", sans-serif;
     font-size: 24px;
 }
-input {
+
+.main_link {
     padding: 8px;
     font-size: 15px;
+    background-color: lavender;
+    color: black;
     border: 0;
 }
-input[type="button"]:hover {
-    background: rgba(12,7,16,0.3);
+
+.main_link:hover {
+    background: rgba(12, 7, 16, 0.3);
     color: white;
     border: 0.5px solid white;
 }
+
 .about_me {
-    height: 450px;
+    height: 350px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 50px;
 }
-.inline {
+
+.general_info_about {
     display: flex;
-    margin-top: 50px;
 }
-.about_text{
-    text-align: center;
-    margin-right: 110px;
-    margin-top: 60px;
+
+.about_text {
+    margin: 40px 40px 0 0;
     color: #727272;
 }
-.about_photo {
-    width: 300px;
-    height: 300px;
+
+.my_photo {
+    width: 250px;
+    height: 250px;
+    float: right;
     border-radius: 200px;
 }
 
-.quote{
+.quote {
     height: 650px;
     background: url("background.jpg");
     background-size: cover;
@@ -96,7 +130,8 @@ input[type="button"]:hover {
     background-repeat: no-repeat;
     color: white;
 }
-.quote h1{
+
+.quote h1 {
     font-style: italic;
     text-align: left;
     font-size: 40px;
@@ -104,12 +139,14 @@ input[type="button"]:hover {
     padding-left: 80px;
     padding-right: 60px;
 }
-.quote h3{
+
+.quote h3 {
     font-size: 20px;
     text-align: right;
     padding-right: 80px;
 }
-.footer{
+
+.footer {
     height: 40px;
     text-align: center;
     margin-top: 16px;
