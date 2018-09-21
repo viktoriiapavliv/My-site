@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.top-menu-container {
+    padding: 15px;
+    margin-right: 60px;
+    float: right;
+}
+
+.menu-item{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+.sub-menu-container{
+    position: absolute;
+    text-align: left;
+    display: none;
+    width: 100px;
+    padding-top: 14px;
+}
+
+.sub-menu-item{
+    color: white;
+    border-collapse: collapse;
+    background-color: rgba(0,0,0,0.3);
+    padding: 8px;
+}
+
+.sub-menu-item:hover{
+    color: lavender;
+}
+.menu-item:hover .sub-menu-container{
+    display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.my-photo-link{
+    color: white;
+}
+.header{
+    height: 48px;
+    background-color: white;
+}
+
+.section{
+    height: auto;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 0px  0px 30px;
+}
+
+h1{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.images-general{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.footer {
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+    padding-top: 5px;
+}
