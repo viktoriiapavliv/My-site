@@ -72,9 +72,10 @@ img {
     height: 300px;
 }
 
-.images-general{
-    float: left;
-    margin: 10px 10px 10px 0;
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .footer {
